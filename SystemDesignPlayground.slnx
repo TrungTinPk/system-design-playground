@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="SystemDesign.Api/SystemDesign.Api.csproj" />
+  <Project Path="SystemDesign.Application/SystemDesign.Application.csproj" />
+  <Project Path="SystemDesign.Domain/SystemDesign.Domain.csproj" />
+  <Project Path="SystemDesign.Infrastructure/SystemDesign.Infrastructure.csproj" />
+</Solution>
