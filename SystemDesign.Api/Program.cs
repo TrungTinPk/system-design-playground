@@ -1,3 +1,4 @@
+using SystemDesign.Api.Endpoints;
 using SystemDesign.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,7 +7,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddInfrastructure(builder.Configuration);
 
-builder.Services.AddControllers();
+// Auth scaffolding. TODO: configure a real authentication scheme (e.g. JWT Bearer)
+// so RequireAuthorization()-protected endpoints can authenticate users.
+builder.Services.AddAuthentication();
+builder.Services.AddAuthorization();
+
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
@@ -20,8 +25,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapControllers();
+app.MapDiagramEndpoints();
 
 app.Run();

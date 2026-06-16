@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\WS\\SystemDesignPlayground\\",
+  "WorkspaceRootPath": "D:\\WS\\SystemDesignPlayground\\SystemDesignPlayground.BE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0275FC54-0220-4364-9109-41CC46D4107F}|SystemDesign.Domain\\SystemDesign.Domain.csproj|d:\\ws\\systemdesignplayground\\systemdesign.domain\\systemdesign.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0275FC54-0220-4364-9109-41CC46D4107F}|SystemDesign.Domain\\SystemDesign.Domain.csproj|solutionrelative:systemdesign.domain\\systemdesign.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A6FE29F0-7730-A5AF-5A3A-689FBF3DE436}|SystemDesign.Api\\SystemDesign.Api.csproj|d:\\ws\\systemdesignplayground\\systemdesignplayground.be\\systemdesign.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6FE29F0-7730-A5AF-5A3A-689FBF3DE436}|SystemDesign.Api\\SystemDesign.Api.csproj|solutionrelative:systemdesign.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6FE29F0-7730-A5AF-5A3A-689FBF3DE436}|SystemDesign.Api\\SystemDesign.Api.csproj|d:\\ws\\systemdesignplayground\\systemdesignplayground.be\\systemdesign.api\\systemdesign.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A6FE29F0-7730-A5AF-5A3A-689FBF3DE436}|SystemDesign.Api\\SystemDesign.Api.csproj|solutionrelative:systemdesign.api\\systemdesign.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC199AE5-04B7-97EB-296D-92C8D72E760D}|SystemDesign.Domain\\SystemDesign.Domain.csproj|d:\\ws\\systemdesignplayground\\systemdesignplayground.be\\systemdesign.domain\\systemdesign.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EC199AE5-04B7-97EB-296D-92C8D72E760D}|SystemDesign.Domain\\SystemDesign.Domain.csproj|solutionrelative:systemdesign.domain\\systemdesign.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -111,10 +119,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SystemDesign.Domain",
-              "DocumentMoniker": "D:\\WS\\SystemDesignPlayground\\SystemDesign.Domain\\SystemDesign.Domain.csproj",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WS\\SystemDesignPlayground\\SystemDesignPlayground.BE\\SystemDesign.Api\\Program.cs",
+              "RelativeDocumentMoniker": "SystemDesign.Api\\Program.cs",
+              "ToolTip": "D:\\WS\\SystemDesignPlayground\\SystemDesignPlayground.BE\\SystemDesign.Api\\Program.cs",
+              "RelativeToolTip": "SystemDesign.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T11:09:11.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SystemDesign.Api.http",
+              "DocumentMoniker": "D:\\WS\\SystemDesignPlayground\\SystemDesignPlayground.BE\\SystemDesign.Api\\SystemDesign.Api.http",
+              "RelativeDocumentMoniker": "SystemDesign.Api\\SystemDesign.Api.http",
+              "ToolTip": "D:\\WS\\SystemDesignPlayground\\SystemDesignPlayground.BE\\SystemDesign.Api\\SystemDesign.Api.http",
+              "RelativeToolTip": "SystemDesign.Api\\SystemDesign.Api.http",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-06-15T11:07:49.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SystemDesign.Domain.csproj",
+              "DocumentMoniker": "D:\\WS\\SystemDesignPlayground\\SystemDesignPlayground.BE\\SystemDesign.Domain\\SystemDesign.Domain.csproj",
               "RelativeDocumentMoniker": "SystemDesign.Domain\\SystemDesign.Domain.csproj",
-              "ToolTip": "D:\\WS\\SystemDesignPlayground\\SystemDesign.Domain\\SystemDesign.Domain.csproj",
+              "ToolTip": "D:\\WS\\SystemDesignPlayground\\SystemDesignPlayground.BE\\SystemDesign.Domain\\SystemDesign.Domain.csproj",
               "RelativeToolTip": "SystemDesign.Domain\\SystemDesign.Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",

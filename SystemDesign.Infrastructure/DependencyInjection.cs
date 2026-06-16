@@ -1,6 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using SystemDesign.Application.Common;
+using SystemDesign.Application.Diagrams;
+using SystemDesign.Infrastructure.Diagrams;
 using SystemDesign.Infrastructure.Persistence;
 
 namespace SystemDesign.Infrastructure;
@@ -18,6 +21,12 @@ public static class DependencyInjection
         services.AddDbContext<ApplicationDbContext>(options =>
             options.UseSqlServer(connectionString, sql =>
                 sql.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
+
+        // Open generic registration so any entity can resolve IGenericRepository<TEntity>.
+        services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+
+        services.AddScoped<IDiagramRepository, DiagramRepository>();
+        services.AddScoped<IDiagramService, DiagramService>();
 
         return services;
     }

@@ -1,7 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\WS\\SystemDesignPlayground\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\WS\\SystemDesignPlayground\\SystemDesignPlayground.BE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6FE29F0-7730-A5AF-5A3A-689FBF3DE436}|SystemDesign.Api\\SystemDesign.Api.csproj|d:\\ws\\systemdesignplayground\\systemdesignplayground.be\\systemdesign.api\\systemdesign.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A6FE29F0-7730-A5AF-5A3A-689FBF3DE436}|SystemDesign.Api\\SystemDesign.Api.csproj|solutionrelative:systemdesign.api\\systemdesign.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC199AE5-04B7-97EB-296D-92C8D72E760D}|SystemDesign.Domain\\SystemDesign.Domain.csproj|d:\\ws\\systemdesignplayground\\systemdesignplayground.be\\systemdesign.domain\\systemdesign.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EC199AE5-04B7-97EB-296D-92C8D72E760D}|SystemDesign.Domain\\SystemDesign.Domain.csproj|solutionrelative:systemdesign.domain\\systemdesign.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 23,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,6 +111,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SystemDesign.Api.http",
+              "DocumentMoniker": "D:\\WS\\SystemDesignPlayground\\SystemDesignPlayground.BE\\SystemDesign.Api\\SystemDesign.Api.http",
+              "RelativeDocumentMoniker": "SystemDesign.Api\\SystemDesign.Api.http",
+              "ToolTip": "D:\\WS\\SystemDesignPlayground\\SystemDesignPlayground.BE\\SystemDesign.Api\\SystemDesign.Api.http",
+              "RelativeToolTip": "SystemDesign.Api\\SystemDesign.Api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-06-15T11:07:49.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SystemDesign.Domain.csproj",
+              "DocumentMoniker": "D:\\WS\\SystemDesignPlayground\\SystemDesignPlayground.BE\\SystemDesign.Domain\\SystemDesign.Domain.csproj",
+              "RelativeDocumentMoniker": "SystemDesign.Domain\\SystemDesign.Domain.csproj",
+              "ToolTip": "D:\\WS\\SystemDesignPlayground\\SystemDesignPlayground.BE\\SystemDesign.Domain\\SystemDesign.Domain.csproj",
+              "RelativeToolTip": "SystemDesign.Domain\\SystemDesign.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-15T10:05:34.656Z",
+              "EditorCaption": ""
             }
           ]
         }

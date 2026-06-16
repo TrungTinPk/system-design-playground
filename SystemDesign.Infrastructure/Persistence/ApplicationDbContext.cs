@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using SystemDesign.Domain.Entities;
 
 namespace SystemDesign.Infrastructure.Persistence;
 
@@ -9,7 +10,7 @@ public class ApplicationDbContext : DbContext
     {
     }
 
-    // Register DbSet<TEntity> properties here as domain entities are added.
+    public DbSet<Diagram> Diagrams => Set<Diagram>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

@@ -1,6 +1,33 @@
 @SystemDesign.Api_HostAddress = http://localhost:5290
+@diagramId = 00000000-0000-0000-0000-000000000000
 
-GET {{SystemDesign.Api_HostAddress}}/weatherforecast/
+### List all diagrams
+GET {{SystemDesign.Api_HostAddress}}/api/diagrams
 Accept: application/json
+
+### Get a diagram by id
+GET {{SystemDesign.Api_HostAddress}}/api/diagrams/{{diagramId}}
+Accept: application/json
+
+### Create a diagram
+POST {{SystemDesign.Api_HostAddress}}/api/diagrams
+Content-Type: application/json
+
+{
+  "name": "My First Design",
+  "content": "{\"nodes\":[],\"edges\":[]}"
+}
+
+### Update a diagram
+PUT {{SystemDesign.Api_HostAddress}}/api/diagrams/{{diagramId}}
+Content-Type: application/json
+
+{
+  "name": "Updated Design",
+  "content": "{\"nodes\":[{\"id\":\"1\"}],\"edges\":[]}"
+}
+
+### Delete a diagram
+DELETE {{SystemDesign.Api_HostAddress}}/api/diagrams/{{diagramId}}
 
 ###
